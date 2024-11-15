@@ -1,0 +1,161 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  background-image: url('images/bethy.jpg'); /* Set your background image */
+  background-size: cover; /* Cover background image */
+  background-repeat: no-repeat; /* Prevent background image repeat */
+  background-attachment: fixed; /* Fixed background image */
+  color: #ffffff; /* Light text color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0; /* Reset body padding */
+}
+
+/* Centering content */
+.container {
+  max-width: 1200px; /* Max width for content */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Padding around the content */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #e0e0e0; /* Slightly lighter than the main text */
+  text-align: center; /* Center align headings */
+}
+
+/* Paragraph Styles */
+p {
+  margin: 5px 0; /* Consistent margins for paragraphs */
+  line-height: 1.5; /* Improve readability */
+}
+
+/* Navigation */
+nav {
+  background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent dark background */
+  padding: 10px; /* Padding for nav */
+  border-radius: 5px; /* Rounded corners */
+}
+
+nav ul {
+  list-style: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  display: flex; /* Horizontal layout */
+}
+
+nav li {
+  margin-right: 20px; /* Space between links */
+}
+
+nav a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  padding: 5px 10px; /* Padding for links */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+nav a:hover {
+  background-color: rgba(63, 81, 181, 0.6); /* Hover color for links */
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  background-color: rgba(30, 30, 30, 0.8); /* Dark input box */
+  color: #ffffff; /* White text */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  border-radius: 4px; 
+  padding: 10px; 
+  margin-bottom: 10px; 
+  width: calc(100% - 22px); /* Full width minus padding */
+  transition: border-color 0.3s ease; /* Smooth border color change */
+}
+
+/* Input Focus Styles */
+input:focus {
+  border-color: #3f51b5; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Button Styles */
+button {
+  background-color: #3f51b5; /* Primary button color */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease; /* Smooth background color change */
+}
+
+/* Button Hover Effect */
+button:hover {
+  background-color: #5c6bc0; /* Lighter button color on hover */
+}
+
+/* Charts and Data Display Styles */
+.chart-container {
+  width: 100%; /* Full width for chart */
+  margin: auto; /* Center chart */
+}
+
+/* Employee and Product Card Styles */
+.card {
+  background-color: rgba(28, 28, 28, 0.8); /* Semi-transparent dark background for cards */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border color */
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Adding shadow for elevation */
+}
+
+/* Miscellaneous Styles */
+.image-slider img {
+  width: 100%; /* Set a width, adjust to your liking */
+  height: auto; 
+}
+
+.login-container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.login-container form {
+  width: 300px; /* Width for login forms */
+}
+/* Dashboard.css */
+
+.container {
+  text-align: center;
+}
+
+.nav-links {
+  margin: 20px 0;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.image-slider {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  margin: 30px auto;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}

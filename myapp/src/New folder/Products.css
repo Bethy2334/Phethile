@@ -1,0 +1,59 @@
+
+
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #e0e0e0; /* Slightly lighter than the main text */
+}
+
+input[type="text"],
+input[type="number"] {
+    background-color: #1e1e1e; /* Dark input box */
+    color: #ffffff; /* White text */
+    border: 1px solid #444; /* Border color */
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 22px); /* Full width minus padding */
+}
+
+button {
+    background-color: #3f51b5; /* Primary button color */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5c6bc0; /* Lighter button color on hover */
+}
+
+div {
+    background-color: #1c1c1c; /* Darker background for product boxes */
+    border: 1px solid #444; /* Border color */
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 0; /* Remove default margin */
+}
+
+p {
+    margin: 5px 0; /* Consistent margins for paragraphs */
+}
+
+p:last-child {
+    margin-bottom: 10px; /* Add spacing after the last paragraph */
+}
