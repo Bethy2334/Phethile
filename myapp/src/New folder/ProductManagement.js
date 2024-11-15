@@ -12,7 +12,7 @@ function ProductManagement() {
         price: '',
         stock: ''
     });
-    const [sellQuantities, setSellQuantities] = useState({}); // sell quantities for each product
+    const [sellQuantities, setSellQuantities] = useState({}); 
 
     useEffect(() => {
         const fetchProducts = async () => {
